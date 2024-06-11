@@ -1,0 +1,51 @@
+1. In design Heuristics, what does the term “advantages of Matching between system and the real world” mean? What are the advantages?
+
+This concept is important because it means that the system should use the language that the user is familiar with for better understanding and easier use.
+The advantages are that it improves usability, because the interface is based on their real world experiences and language, the user doesnt have to learn new terms.
+It's also quicker to learn the system for new users, because its more intuitive.
+
+2. What do you understand by “Single source of truth”? and how does it relate to redux? What are the advantages?
+
+"Single Source of Truth" means having one central location for all the application's state to keep everything consistent and reliable. 
+That concept is used in Redux and its called the store, which holds the entire state of the application.
+After creating the store, the components in the application can access the state by reading from it. When we need to update the state, components dispatch actions to the store.
+
+The advantages of that are: its easier to debug when prblems occur, developers can work more efficiently, knowing that all state-related logic is centralized,
+reducing the chances of conflicts, its making the code more consistent.
+
+3. What is the difference between a stateless component and a stateful component in React?
+
+A stateless component is a component that does not hold or manage its own state. It relies entirely on the props passed to it to render content.
+This can be used for a button or any static content. Easier to implement and test.
+
+A stateful component on the other hand is a component that maintains and manages its own state. It can update its rendering based on internal state changes.
+For example an interactive component that will use the users input.
+
+4. List out the advantages and disadvantages of exploratory testing (used in Agile) and scripted testing?
+
+EXPLORATORY TESTING (more experience based testing):
+
+Advantages:
+flexibility; testers can easily and freely navigate the application,
+adaptability; testers can quickly respond to changes in the application without needing to wait for updated scripts
+
+Disadvantages:
+there is no standarized documentation for reference,
+tests cannot be automated,
+inconsistent covarage of the tests,
+depends on the skills of the testers.
+
+SCRIPTED TESTING:
+
+Advantages:
+consistency; tests are reliable,
+relaible documentation,
+can be repeated and automated which provides efficiency
+
+Disadvantages:
+tests need constant updates,
+tests have limited coverage.
+slower feedback
+
+
+
