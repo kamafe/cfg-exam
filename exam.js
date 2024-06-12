@@ -92,10 +92,6 @@ const classInfo = () => {
   );
 }
 
-export default classInfo;
-
-
-
 // QUESTION 3:
 
 //1. A change of code was made on line 174 (figure 4), can you briefly explain what that would do?

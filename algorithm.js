@@ -1,14 +1,18 @@
-// To run this file
-// type "node Q2.js" on terminal in current file directory 
-
+//ALGORITHM TASK
 // Write an algorithm that returns true if the given string is a palindrome. Otherwise, return false.
 
-// TASK 1 
 
-const isPalindrome  = (word) => {
-  return true 
+const isPalindrome = (word) => {
+  for (let i = 0; i < word.length / 2; i++) {
+    if (word[i] !== word[word.length - 1 - i]) {
+      return false;
+    }
+  }
+  return true;
+
 }
 
+// Test cases
 console.log(isPalindrome("abcdcba")) // TRUE 
 console.log(isPalindrome("aba")) // TRUE 
 console.log(isPalindrome("c")) // TRUE

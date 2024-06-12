@@ -1,0 +1,39 @@
+SECTION 3 (theory challenge)
+
+Question 1: 
+Definition and explanation of SQL Injection
+
+SQL injection is a type of attack that hackers can use to mess with data.
+It inserts an SQL code to manipulate that data which can result in deleting some of it, modifying it etc.
+Its exploiting vulnerabilities  in the application's input validation mechanisms to compromise the integrity.
+For example hackers can use it to login into accounts without the passwords because they change the structure
+of the SQL code and add an exception.
+
+Question 2:
+Types of SQL Injection Attacks
+
+- classic SQL injection: they inject directly into input ffields which alters the structure.
+- blind SQL injection: the attackers inject the malicious code into the input fields as well but this
+type is called blind because the user wont see the error results of the query.
+
+Question 3:
+Impact of SQL Injection
+
+This type of a attack can be very dangerous and can result in data breaches, where attackers can gain
+access to some sensitive data like personal information. They can manipulate the data in ways that it
+creates data corruption and destroy companies/businesses.
+They can steal someone's identity and put them at risk of fraud etc.
+
+Question 4:
+Mitigation Strategies:
+
+- validation
+- sanitization
+- testing
+- database hardening
+- web app firewall
+- preperaed statements
+
+
+
+
